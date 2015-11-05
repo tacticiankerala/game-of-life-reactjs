@@ -1,0 +1,32 @@
+table {
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #aaa;
+}
+
+
+td {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 1px solid #aaa;
+}
+
+
+tr:last-child, td:last-child {
+                   border: none;
+               }
+
+.cell {
+    width: inherit;
+    height: inherit;
+}
+
+.cell.live {
+    background: url("./bacteria_gif.gif") center no-repeat;
+    background-size: contain;
+}
