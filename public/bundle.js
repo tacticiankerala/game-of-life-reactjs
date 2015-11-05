@@ -19886,7 +19886,7 @@
 	                });
 	                return sum;
 	            }, 0);
-	            return count;
+	            return count - this.getCell(board, row, col);
 	        }
 	    }, {
 	        key: "willSurvive",

@@ -29,7 +29,7 @@ class CellFateDecider {
             });
             return sum;
         }, 0);
-        return count;
+        return count - this.getCell(board, row, col);
     }
     willSurvive(board, row, col) {
         let neighbourCount = this.getTotalLiveCellsIntheNeighbourhood(board, row, col);
